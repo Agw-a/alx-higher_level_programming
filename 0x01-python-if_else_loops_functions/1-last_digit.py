@@ -5,7 +5,7 @@ lastDigit = abs(number) % 10
 out_put = "Last digit of"
 if number < 0:
     lastDigit = -lastDigit
-print("{}{} is {} and is ".format(out_put, number, lastDigit), end="")
+print("{} {} is {} and is ".format(out_put, number, lastDigit), end="")
 if lastDigit > 5:
     print("graeter than 5")
 if lastDigit == 0:
