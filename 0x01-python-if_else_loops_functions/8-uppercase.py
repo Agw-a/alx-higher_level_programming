@@ -6,4 +6,4 @@ def uppercase(str):
         else:
             upp_er = ord(ch)
         print("{:c}".format(upp_er), end="")
-    print(" ")
+    print("")
