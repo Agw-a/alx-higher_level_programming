@@ -1,1 +1,1 @@
-#Fstring formating and python scripts
+#Fstring formating and python scriptsFstring formatting
