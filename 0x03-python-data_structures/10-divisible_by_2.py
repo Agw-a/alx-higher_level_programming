@@ -1,8 +1,5 @@
 #!/usr/bin/python3
 
-from xxlimited import new
-
-
 def divisible_by_2(my_list=[]):
     new_list = []
 
