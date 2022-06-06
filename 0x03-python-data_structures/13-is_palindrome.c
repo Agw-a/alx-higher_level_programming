@@ -1,0 +1,1 @@
+/* checks is a singly linked list is a palindrome*/
