@@ -1,17 +1,16 @@
 #!/usr/bin/python
 
 def add_tuple(tuple_a=(), tuple_b=()):
-    if len(tuple_a) == 0:
-        a = (0, 0)
-    elif len(tuple_a) == 1:
-        a = (tuple_a[0], 0)
-    else:
-        a = tuple_a
-    if len(tuple_b) == 0:
-        b = (0, 0)
-    elif len(tuple_b) == 1:
-        b = (tuple_b[0], 0)
-    else:
-        b = tuple_b
-    c = (a[0] + b[0], a[1] + b[1])
-    return c
+    a, b = tuple_a, tuple_b
+
+    if len(a) in range(2):
+        if len(a) == 0:
+            a = 0, 0
+        else:
+            a = a[0], 0
+    if len(b) in range(2):
+        if len(b) == 0:
+            b = 0, 0
+        else:
+            b = b[0], 0
+    return a[0] + b[0], a[1] + b[1]
