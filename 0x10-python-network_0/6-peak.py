@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+""" a function that fins peak in unsorted integers"""
 
 
 def find_peak(list_of_integers):
